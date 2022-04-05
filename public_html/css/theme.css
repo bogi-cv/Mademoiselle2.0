@@ -30,7 +30,7 @@ html {
   --bs-gray-600: #6c757d;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
-  --bs-gray-900: #1e1e1e;
+  --bs-gray-900: #212529;
   --bs-primary: #0d6efd;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
@@ -49,7 +49,7 @@ html {
   --bs-dark-rgb: 30, 30, 30;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 30, 30, 30;
+  --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -58,7 +58,7 @@ html {
   --bs-body-font-size: 1.6rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #1e1e1e;
+  --bs-body-color: #212529;
   --bs-body-bg: #fff; }
 
 *,
@@ -240,7 +240,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
-  background-color: #1e1e1e;
+  background-color: #212529;
   border-radius: 0.2rem; }
   kbd kbd {
     padding: 0;
@@ -1568,15 +1568,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #1e1e1e;
+  --bs-table-striped-color: #212529;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #1e1e1e;
+  --bs-table-active-color: #212529;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #1e1e1e;
+  --bs-table-hover-color: #212529;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #212529;
   vertical-align: top;
   border-color: #dee2e6; }
   .table > :not(caption) > * > * {
@@ -1775,7 +1775,7 @@ progress {
   font-size: calc(1.285rem + 0.42vw);
   font-weight: 400;
   line-height: 1.5;
-  color: #1e1e1e;
+  color: #212529;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -1793,7 +1793,7 @@ progress {
     .form-control[type="file"]:not(:disabled):not([readonly]) {
       cursor: pointer; }
   .form-control:focus {
-    color: #1e1e1e;
+    color: #212529;
     background-color: #fff;
     border-color: #86b7fe;
     outline: 0;
@@ -1810,7 +1810,7 @@ progress {
     padding: 0.375rem 0.75rem;
     margin: -0.375rem -0.75rem;
     margin-inline-end: 0.75rem;
-    color: #1e1e1e;
+    color: #212529;
     background-color: #e9ecef;
     pointer-events: none;
     border-color: inherit;
@@ -1828,7 +1828,7 @@ progress {
     padding: 0.375rem 0.75rem;
     margin: -0.375rem -0.75rem;
     margin-inline-end: 0.75rem;
-    color: #1e1e1e;
+    color: #212529;
     background-color: #e9ecef;
     pointer-events: none;
     border-color: inherit;
@@ -1849,7 +1849,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #1e1e1e;
+  color: #212529;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
@@ -1921,7 +1921,7 @@ textarea.form-control-lg {
   font-size: calc(1.285rem + 0.42vw);
   font-weight: 400;
   line-height: 1.5;
-  color: #1e1e1e;
+  color: #212529;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -1948,7 +1948,7 @@ textarea.form-control-lg {
     background-color: #e9ecef; }
   .form-select:-moz-focusring {
     color: transparent;
-    text-shadow: 0 0 0 #1e1e1e; }
+    text-shadow: 0 0 0 #212529; }
 
 .form-select-sm {
   padding-top: 0.25rem;
@@ -2183,7 +2183,7 @@ textarea.form-control-lg {
   font-size: calc(1.285rem + 0.42vw);
   font-weight: 400;
   line-height: 1.5;
-  color: #1e1e1e;
+  color: #212529;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -2396,7 +2396,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #1e1e1e;
+  color: #212529;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -2415,7 +2415,7 @@ textarea.form-control-lg {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: #1e1e1e; }
+    color: #212529; }
   .btn-check:focus + .btn, .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); }
@@ -2895,7 +2895,7 @@ textarea.form-control-lg {
   padding: 0.5rem 0;
   margin: 0;
   font-size: calc(1.285rem + 0.42vw);
-  color: #1e1e1e;
+  color: #212529;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3067,14 +3067,14 @@ textarea.form-control-lg {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #1e1e1e;
+  color: #212529;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0; }
   .dropdown-item:hover, .dropdown-item:focus {
-    color: #1b1b1b;
+    color: #1e2125;
     background-color: #e9ecef; }
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
@@ -3102,7 +3102,7 @@ textarea.form-control-lg {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1rem;
-  color: #1e1e1e; }
+  color: #212529; }
 
 .dropdown-menu-dark {
   color: #dee2e6;
@@ -3619,34 +3619,34 @@ textarea.form-control-lg {
     overflow-y: visible; }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #D0B6B6; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: rgba(0, 0, 0, 0.9); }
+    color: #D0B6B6; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.55); }
+  color: #1e1e1e; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7); }
+    color: #D0B6B6; }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #D0B6B6; }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1); }
+  color: #1e1e1e;
+  border-color: #1e1e1e; }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%231e1e1e' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
 .navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.55); }
+  color: #1e1e1e; }
   .navbar-light .navbar-text a,
   .navbar-light .navbar-text a:hover,
   .navbar-light .navbar-text a:focus {
-    color: rgba(0, 0, 0, 0.9); }
+    color: #D0B6B6; }
 
 .navbar-dark .navbar-brand {
   color: #fff; }
@@ -3811,7 +3811,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: calc(1.285rem + 0.42vw);
-  color: #1e1e1e;
+  color: #212529;
   text-align: left;
   background-color: #fff;
   border: 0;
@@ -3837,7 +3837,7 @@ textarea.form-control-lg {
     height: 1.25rem;
     margin-left: auto;
     content: "";
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231e1e1e'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-size: 1.25rem;
     transition: transform 0.2s ease-in-out; }
@@ -4151,14 +4151,14 @@ textarea.form-control-lg {
     text-decoration: none;
     background-color: #f8f9fa; }
   .list-group-item-action:active {
-    color: #1e1e1e;
+    color: #212529;
     background-color: #e9ecef; }
 
 .list-group-item {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #1e1e1e;
+  color: #212529;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125); }
@@ -4875,7 +4875,7 @@ textarea.form-control-lg {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #1e1e1e; }
+  color: #212529; }
 
 .carousel {
   position: relative; }
@@ -9536,7 +9536,8 @@ body {
   font-weight: 300; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: "Bodoni", sans-serif; }
 
 .section-title-bodoni {
   font-family: "Bodoni", sans-serif;
@@ -9558,14 +9559,31 @@ lead-title {
   letter-spacing: 2rem;
   color: #FFFFFF; }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 29, 2022, 3:03:16 PM
-    Author     : frontend
-*/
+.navbar .navbar-brand img {
+  max-width: 196px; }
+
+header .navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important; }
+  header .navbar-toggler span {
+    color: #1e1e1e; }
+
+header .navbar-nav {
+  background-color: #FFFFF;
+  text-align: center; }
+  header .navbar-nav a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    display: block;
+    padding: 15px; }
+    @media (min-width: 768px) {
+      header .navbar-nav a {
+        padding-inline: 26px !important; } }
+    @media (min-width: 992px) {
+      header .navbar-nav a {
+        padding-inline: 36px !important; } }
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
