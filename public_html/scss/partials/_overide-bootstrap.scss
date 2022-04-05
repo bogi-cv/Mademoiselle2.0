@@ -1,0 +1,44 @@
+
+
+html{
+    font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+
+$grid-gutter-width: 3rem;
+
+
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.5,
+  2: $spacer ,
+  3: $spacer * 1.5,
+  4: $spacer * 2,
+  5: $spacer * 2.5,
+  6:c$spacer * 3,
+  7: $spacer * 3.5,
+  8: $spacer * 4 ,
+  9: $spacer * 4.5,
+  10: $spacer * 5,
+  11: $spacer * 8,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  // xxl: 1400px
+);
+
+$container-max-widths: (
+  //sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px, //1140
+  //xxl: 1320px
+);
