@@ -3619,20 +3619,20 @@ textarea.form-control-lg {
     overflow-y: visible; }
 
 .navbar-light .navbar-brand {
-  color: #D0B6B6; }
+  color: rgba(0, 0, 0, 0.9); }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: #D0B6B6; }
+    color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-nav .nav-link {
   color: #1e1e1e; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #D0B6B6; }
+    color: #dark; }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #D0B6B6; }
+  color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-toggler {
   color: #1e1e1e;
@@ -3646,7 +3646,7 @@ textarea.form-control-lg {
   .navbar-light .navbar-text a,
   .navbar-light .navbar-text a:hover,
   .navbar-light .navbar-text a:focus {
-    color: #D0B6B6; }
+    color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
   color: #fff; }
@@ -9551,7 +9551,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 400;
   line-height: 2.4rem; }
 
-lead-title {
+.lead-title {
   font-family: "Bodoni", sans-serif;
   font-weight: 400;
   font-size: 6rem;
@@ -9576,22 +9576,27 @@ header .navbar-nav {
     font-size: 1.4rem;
     line-height: 1.7rem;
     display: block;
-    padding: 15px; }
+    padding: 10px;
+    border-bottom: 1px solid transparent; }
     @media (min-width: 768px) {
       header .navbar-nav a {
-        padding-inline: 26px !important; } }
+        margin-inline: 20px !important; } }
     @media (min-width: 992px) {
       header .navbar-nav a {
-        padding-inline: 36px !important; } }
+        margin-inline: 36px !important; } }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 29, 2022, 3:03:39 PM
-    Author     : frontend
-*/
+header .navbar-nav a:hover {
+  border-bottom: 1px solid #ECD9D9; }
+
+.lead div {
+  padding: 340px 0;
+  max-width: 600px; }
+
+.lead {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template

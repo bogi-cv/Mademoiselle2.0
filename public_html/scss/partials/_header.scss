@@ -14,22 +14,31 @@ header {
         }
     }
     
-    .navbar-nav{
+    
+
+    .navbar-nav
+    {
         background-color: #FFFFF;
         text-align: center;
-        a{
+        
+       a{
             font-weight: 400;
             font-size: 1.4rem;
             line-height: 1.7rem;
             display: block;
-            padding: 15px;
-           
+            padding: 10px;
+            border-bottom: 1px solid transparent;
+
             @media(min-width: 768px){
-                padding-inline: 26px !important;
+                margin-inline: 20px !important;
             }
-             @media(min-width: 992px){
-                padding-inline: 36px !important;
+            @media(min-width: 992px){
+                margin-inline: 36px !important;
             }
         }
     }
+   
+  .navbar-nav  a:hover{
+        border-bottom: 1px solid #ECD9D9;
+    } 
 }
