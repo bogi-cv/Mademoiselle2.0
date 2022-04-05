@@ -2,6 +2,16 @@ img{
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+      decoration: none; 
+}
+
+a:visited{
+     color: inherit;
+}
+
+
 body{
     font-size: 1.8rem;
     line-height: 2.6rem;
@@ -23,6 +33,22 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: 0.5rem;
 }
 
+.section-title-bodoni:after
+{
+    content:' ';
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #ECD9D9;
+    width: 74px;
+    margin-top: 15px;
+
+    @media(min-width: 992px){
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+
 .news-title{
     font-family: $lato;
     font-weight: 400;
@@ -30,7 +56,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .lead-title{
-     font-family: $bodoni;
+    font-family: $bodoni;
     font-weight: 400;
     font-size: 6rem;
     line-height: 8.4rem;

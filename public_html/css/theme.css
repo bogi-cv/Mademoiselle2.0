@@ -9529,6 +9529,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
 img {
   max-width: 100%; }
 
+a {
+  text-decoration: none;
+  decoration: none; }
+
+a:visited {
+  color: inherit; }
+
 body {
   font-size: 1.8rem;
   line-height: 2.6rem;
@@ -9545,6 +9552,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-size: 3rem;
   line-height: 4.5rem;
   letter-spacing: 0.5rem; }
+
+.section-title-bodoni:after {
+  content: ' ';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ECD9D9;
+  width: 74px;
+  margin-top: 15px; }
+  @media (min-width: 992px) {
+    .section-title-bodoni:after {
+      margin-left: 0;
+      margin-right: auto; } }
 
 .news-title {
   font-family: "Lato", sans-serif;
@@ -9589,13 +9609,41 @@ header .navbar-nav a:hover {
   border-bottom: 1px solid #ECD9D9; }
 
 .lead div {
-  padding: 340px 0;
-  max-width: 600px; }
+  padding: 230px 0;
+  max-width: 450px; }
+  @media (min-width: 992px) {
+    .lead div {
+      padding: 340px 0 !important;
+      max-width: 600px !important; } }
 
 .lead {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center; }
+
+.news .news-item .news-item-data {
+  margin-top: -50px;
+  background-color: #fff;
+  display: block;
+  margin-inline: 3rem;
+  z-index: 6;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; }
+
+.news .news-item-data p {
+  font-family: "Bodoni", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7rem; }
+
+.news .news-item-data h5, .news .news-item-data .h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-transform: uppercase; }
 
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

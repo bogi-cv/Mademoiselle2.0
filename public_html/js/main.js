@@ -1,8 +1,8 @@
-$(document).ready(function(){
-    
-    
- 
-    
+$(document).ready(function () {
+
+
+
+
 // animation start
     function animation() {
         var windowHight = $(window).height();
@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 
 
-if ($('.contact-form').length > 0) {
+    if ($('.contact-form').length > 0) {
         $(function () {
             $(".contact-form").validate({
                 highlight: function (element) {
@@ -48,24 +48,24 @@ if ($('.contact-form').length > 0) {
                         required: true,
                         email: true
                     },
-                    message:{
+                    message: {
                         required: true,
                         maxlength: 255
-                        
+
                     }
                 },
                 messages: {
-                   name: {
+                    name: {
                         required: 'Name* is required field!!!'
                     },
                     email: {
                         required: 'Email* is required field!!!',
                         email: 'Please insert valid Email address!!!'
                     },
-                    message:{
+                    message: {
                         required: 'Message* is required field!!!',
                         maxlength: 'Max Message length is 255 characters !!!'
-                        
+
                     }
 
                 },
@@ -80,8 +80,13 @@ if ($('.contact-form').length > 0) {
 
 
 
-    
-    
-    
+    $('.toggle-submenu').click(function () {
+        $(this).toggleClass('fa-bars fa-times');
+    });
+
+
+  
+
+
 });
 
