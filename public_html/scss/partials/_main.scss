@@ -84,6 +84,19 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     text-transform: uppercase;
+}
 
+.news{
+    margin-bottom: 46px;
+
+    @media(min-width: 992px){
+        margin-bottom: 126px;
+    }
+}
+
+/*SERVICES START*/
+
+.service-item-data{
+    background-color: #F5F5F5;
 }
 

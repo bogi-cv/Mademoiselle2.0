@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6{
     font-size: 3rem;
     line-height: 4.5rem;
     letter-spacing: 0.5rem;
+    text-align: center;
+     @media(min-width: 992px){
+        text-align: left;
+    }
 }
 
 .section-title-bodoni:after
@@ -64,3 +68,22 @@ h1, h2, h3, h4, h5, h6{
     color: #FFFFFF;
 }
 
+.service-item-data-title{
+    font-family: $lato;
+    font-size: 26px;
+    line-height: 34px;
+    color: $dark;
+    text-transform: uppercase;
+    @media(min-width: 992px){
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+.service-item-data-btn{
+    font-family: $lato;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px 36px;
+    border: 1px solid #1e1e1e;
+}
