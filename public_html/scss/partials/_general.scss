@@ -2,12 +2,13 @@ img{
     max-width: 100%;
 }
 
-a{
-    text-decoration: none;
-      decoration: none; 
+a {
+    text-decoration: none !important;
+    color: $dark;
 }
 
-a:visited{
+a:visited,
+a:hover{
      color: inherit;
 }
 
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6{
     line-height: 4.5rem;
     letter-spacing: 0.5rem;
     text-align: center;
+    text-transform: uppercase;
      @media(min-width: 992px){
         text-align: left;
     }
@@ -88,4 +90,8 @@ h1, h2, h3, h4, h5, h6{
     border: 1px solid #1e1e1e;
 }
 
+.service-item-data-btn:hover{
+    color: red;
+    border: 1px solid red;
+}
 

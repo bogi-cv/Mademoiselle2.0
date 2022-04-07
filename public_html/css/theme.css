@@ -9530,10 +9530,11 @@ img {
   max-width: 100%; }
 
 a {
-  text-decoration: none;
-  decoration: none; }
+  text-decoration: none !important;
+  color: #1e1e1e; }
 
-a:visited {
+a:visited,
+a:hover {
   color: inherit; }
 
 body {
@@ -9552,7 +9553,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-size: 3rem;
   line-height: 4.5rem;
   letter-spacing: 0.5rem;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
   @media (min-width: 992px) {
     .section-title-bodoni {
       text-align: left; } }
@@ -9600,6 +9602,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 17px;
   padding: 15px 36px;
   border: 1px solid #1e1e1e; }
+
+.service-item-data-btn:hover {
+  color: red;
+  border: 1px solid red; }
 
 .navbar .navbar-brand img {
   max-width: 196px; }
@@ -9714,6 +9720,34 @@ header .navbar-nav a:hover {
 @media (min-width: 768px) {
   .service-item:nth-of-type(odd) .service-item-img-col {
     order: 2; } }
+
+.services {
+  margin-bottom: 8rem; }
+  @media (min-width: 992px) {
+    .services {
+      margin-bottom: 11rem; } }
+
+/*PROFESSIONALS START*/
+.professionals .row {
+  padding: 3rem 5rem 3rem 5rem; }
+  @media (min-width: 768px) {
+    .professionals .row {
+      padding: 5rem 9rem 5rem 9rem; } }
+
+.professionals article h5, .professionals article .h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #1e1e1e;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.professionals article p {
+  font-size: 1.6rem;
+  line-height: 2.3rem; }
+
+.professionals .professionals-border {
+  border: 1px solid #ECD9D9; }
 
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

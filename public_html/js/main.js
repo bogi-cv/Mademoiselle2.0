@@ -86,6 +86,20 @@ $(document).ready(function () {
 
 
   
+  
+   if ($('.professionals-carousel').length > 0) {
+        $('.professionals-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 3000
+
+        });
+    }
+  
+  
 
 
 });
