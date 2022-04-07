@@ -9701,8 +9701,19 @@ header .navbar-nav a:hover {
       margin-bottom: 126px; } }
 
 /*SERVICES START*/
-.service-item-data {
+@media (min-width: 992px) {
+  .service-item-data {
+    padding-top: 12rem !important; } }
+
+.service-item {
   background-color: #F5F5F5; }
+
+.service-item:nth-of-type(even) {
+  background-color: #ECD9D9; }
+
+@media (min-width: 768px) {
+  .service-item:nth-of-type(odd) .service-item-img-col {
+    order: 2; } }
 
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
