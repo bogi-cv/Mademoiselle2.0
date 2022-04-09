@@ -9709,9 +9709,6 @@ header .navbar-nav {
 
 .news {
   margin-bottom: 46px; }
-  @media (min-width: 992px) {
-    .news {
-      margin-bottom: 126px; } }
 
 /*SERVICES START*/
 @media (min-width: 992px) {
@@ -9762,7 +9759,7 @@ header .navbar-nav {
   margin-bottom: 6rem; }
   @media (min-width: 992px) {
     .about-us {
-      margin-bottom: 13rem; } }
+      margin-bottom: 10rem; } }
   .about-us .about-us-content h3, .about-us .about-us-content .h3 {
     font-family: "Lato", sans-serif;
     font-size: 4.4rem;
@@ -9794,6 +9791,25 @@ header .navbar-nav {
     box-shadow: none; }
   .about-us .form-group span {
     color: inherit; }
+
+/*********ABOUT PAGE END******/
+/****PAGINATION BLOG PAGE***/
+.nav-pagination a {
+  border: none;
+  font-family: "Bodoni", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-left: 0px !important;
+  transition: none; }
+
+.nav-pagination a:focus {
+  box-shadow: none;
+  color: inherit; }
+
+.nav-pagination a:hover {
+  background-color: transparent;
+  color: inherit;
+  transition: none; }
 
 /*Footer START*/
 .footer a {

@@ -98,10 +98,7 @@
 
 .news{
     margin-bottom: 46px;
-
-    @media(min-width: 992px){
-        margin-bottom: 126px;
-    }
+   
 }
 
 /*SERVICES START*/
@@ -168,14 +165,13 @@
 
 
 
-
 /********************************************/
 /**********ABOUT PAGE START***********/
 
 .about-us{
     margin-bottom: 6rem;
     @media(min-width: 992px){
-        margin-bottom: 13rem;
+        margin-bottom: 10rem;
     }
     
 .about-us-content{
@@ -231,5 +227,32 @@
  
 }
 
+/*********ABOUT PAGE END******/
 
 
+
+
+/****PAGINATION BLOG PAGE***/
+
+.nav-pagination{
+    a{
+        border: none;
+        font-family: $bodoni;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-left: 0px !important;
+          transition: none;
+    } 
+    
+    a:focus{
+        box-shadow: none;
+        color: inherit;
+    }
+    a:hover{
+        background-color: transparent;
+        color: inherit;
+        transition: none;
+    }
+    
+   
+}
