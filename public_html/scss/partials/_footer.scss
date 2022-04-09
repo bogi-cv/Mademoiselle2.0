@@ -1,9 +1,24 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 29, 2022, 3:03:24 PM
-    Author     : frontend
-*/
+
+
+
+/*Footer START*/
+
+.footer{
+    a{
+        margin-inline: 33px;
+        color: #ECD9D9;
+        font-size: 3rem;
+    }
+    
+    a:hover{
+        color: $purple;
+    }
+    
+    p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0.17px;
+    }
+}
+
 

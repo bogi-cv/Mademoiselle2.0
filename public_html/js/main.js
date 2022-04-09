@@ -99,7 +99,11 @@ $(document).ready(function () {
         });
     }
   
-  
+  $('.navbar-nav').on('click', '.toggle-submenu-drop',function(e){
+      e.preventDefault();
+      $(this).toggleClass('fa-chevron-down fa-chevron-up');
+      $(this).parent().next('.submenu').slideToggle();
+  });
 
 
 });

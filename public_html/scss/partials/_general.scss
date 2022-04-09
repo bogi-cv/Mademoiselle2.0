@@ -18,6 +18,7 @@ body{
     line-height: 2.6rem;
     font-family: $lato;
     font-weight: 300;
+    color: $dark;
 }
 
 
@@ -91,7 +92,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .service-item-data-btn:hover{
-    color: red;
-    border: 1px solid red;
+    color: $purple;
+    border: 1px solid $purple;
 }
+
+
+
+
 

@@ -45,16 +45,21 @@
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">ABOUT</a>
+                                <a class="nav-link" aria-current="page" href="#about">ABOUT     <span class="fas fa-chevron-down toggle-submenu-drop"></span></a>
+                                <ul class="submenu list-unstyled">
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">SERVICES</a>
+                                <a class="nav-link" href="#services">SERVICES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">BLOG</a>
+                                <a class="nav-link" href="#blog">BLOG</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
+                                <a class="nav-link" href="#contact">CONTACT</a>
                             </li>
                         </ul>
 
@@ -76,7 +81,7 @@
 
             <!-- NEWS START -->
 
-            <section class="news">
+            <section class="news" id="about">
                 <div class="container text-center text-lg-start">
                     <h2 class="section-title-bodoni mb-7">Stay Up with the Latest Beauty Trends</h2>
 
@@ -123,7 +128,7 @@
 
             <!-- SERVICES START -->
 
-            <section class="services">
+            <section class="services" id="services">
                 <div class="container">
 
                     <h2 class="section-title-bodoni mb-7">Our Services</h2>
@@ -205,7 +210,7 @@
 
             <!-- PROFESSIONALS START-->
 
-            <section class="professionals mb-11">
+            <section class="professionals mb-10" id="blog">
                 <div class="container">
                     
                     <h2 class="section-title-bodoni mb-11">Trust our professionals</h2>
@@ -213,7 +218,7 @@
                     <div class="professionals-carousel owl-carousel owl-theme">
                       
                         <div class="row justify-content-between align-items-center mx-0">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-5">
                             <figure class="mb-0 h-100 mb-8 mb-lg-0">
                                 <img src="./img/professionals/professional-1.png" alt="alt"/>
                             </figure>
@@ -232,7 +237,7 @@
                     </div>
                         
                          <div class="row justify-content-between align-items-center mx-0">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-5">
                             <figure class="mb-0 h-100 mb-8 mb-lg-0">
                                 <img src="./img/professionals/professional-1.png" alt="alt"/>
                             </figure>
@@ -251,7 +256,7 @@
                     </div>
                         
                          <div class="row justify-content-between align-items-center mx-0">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-5">
                             <figure class="mb-0 h-100 mb-8 mb-lg-0">
                                 <img src="./img/professionals/professional-1.png" alt="alt"/>
                             </figure>
@@ -276,9 +281,19 @@
 
             <!-- FOOTER START -->
 
-
-
-
+            <footer class="footer pb-4" id="contact">
+                <div class="container text-center">
+                    
+                <div class="mb-4">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="#"><span class="fab fa-instagram-square"></span></a>
+                </div>
+                
+                <p>Copyright © 2019 Mademoiselle</p>
+                
+                </div>
+            </footer>
 
         </main>
         <!-- Optional JavaScript; choose one of the two! -->

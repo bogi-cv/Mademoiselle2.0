@@ -1,0 +1,65 @@
+
+
+
+/********************************************/
+/**********ABOUT PAGE START***********/
+
+.about-us{
+    margin-bottom: 6rem;
+    @media(min-width: 992px){
+        margin-bottom: 13rem;
+    }
+    
+.about-us-content{
+    h3{
+        font-family: $lato;
+        font-size: 4.4rem;
+        line-height: 5rem;
+        margin-bottom: 4rem;
+    }
+    p{
+        font-size: 2rem;
+        line-height: 2.8rem;
+        margin-bottom: 5rem;
+        padding: 0px 2rem;
+        @media(min-width: 992px){
+            padding: 0px;
+        }
+    }
+    
+    figure{
+         margin-bottom: 6rem;
+    }
+    
+    figure + p{
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+          @media(min-width: 992px){
+            padding: 0px;
+        }
+    }
+}
+
+.form-group{
+    .input-group{
+        border: 1px solid $dark;
+        padding: 1.5rem;
+    }
+    
+    .form-control{
+       border: transparent;
+       padding: 0px;
+    }
+    
+    .form-control:focus{
+        box-shadow: none;
+    }
+    
+    span {
+        color: inherit;
+    }
+}
+
+ 
+}
+

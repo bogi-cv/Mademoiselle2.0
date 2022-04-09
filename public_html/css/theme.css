@@ -9541,7 +9541,8 @@ body {
   font-size: 1.8rem;
   line-height: 2.6rem;
   font-family: "Lato", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #1e1e1e; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 400;
@@ -9604,8 +9605,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   border: 1px solid #1e1e1e; }
 
 .service-item-data-btn:hover {
-  color: red;
-  border: 1px solid red; }
+  color: #6f42c1;
+  border: 1px solid #6f42c1; }
 
 .navbar .navbar-brand img {
   max-width: 196px; }
@@ -9632,9 +9633,12 @@ header .navbar-nav {
     @media (min-width: 992px) {
       header .navbar-nav a {
         margin-inline: 36px !important; } }
-
-header .navbar-nav a:hover {
-  border-bottom: 1px solid #ECD9D9; }
+  header .navbar-nav a:hover {
+    border-bottom: 1px solid #ECD9D9; }
+  header .navbar-nav .submenu {
+    display: none; }
+  header .navbar-nav span {
+    padding: 0px 5px; }
 
 .lead div {
   padding: 230px 0;
@@ -9665,7 +9669,7 @@ header .navbar-nav a:hover {
 .news-item:before {
   content: '';
   display: block;
-  padding-top: 34%;
+  padding-top: 56%;
   background-color: #ccc; }
 
 .news-item a img {
@@ -9684,6 +9688,9 @@ header .navbar-nav a:hover {
   z-index: 6;
   position: relative;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; }
+
+.news .news-item-data:hover {
+  background-color: #ECD9D9; }
 
 .news .news-item-data p {
   font-family: "Bodoni", sans-serif;
@@ -9749,11 +9756,55 @@ header .navbar-nav a:hover {
 .professionals .professionals-border {
   border: 1px solid #ECD9D9; }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 29, 2022, 3:03:24 PM
-    Author     : frontend
-*/
+/********************************************/
+/**********ABOUT PAGE START***********/
+.about-us {
+  margin-bottom: 6rem; }
+  @media (min-width: 992px) {
+    .about-us {
+      margin-bottom: 13rem; } }
+  .about-us .about-us-content h3, .about-us .about-us-content .h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 4rem; }
+  .about-us .about-us-content p {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 5rem;
+    padding: 0px 2rem; }
+    @media (min-width: 992px) {
+      .about-us .about-us-content p {
+        padding: 0px; } }
+  .about-us .about-us-content figure {
+    margin-bottom: 6rem; }
+  .about-us .about-us-content figure + p {
+    font-size: 1.8rem;
+    line-height: 2.6rem; }
+    @media (min-width: 992px) {
+      .about-us .about-us-content figure + p {
+        padding: 0px; } }
+  .about-us .form-group .input-group {
+    border: 1px solid #1e1e1e;
+    padding: 1.5rem; }
+  .about-us .form-group .form-control {
+    border: transparent;
+    padding: 0px; }
+  .about-us .form-group .form-control:focus {
+    box-shadow: none; }
+  .about-us .form-group span {
+    color: inherit; }
+
+/*Footer START*/
+.footer a {
+  margin-inline: 33px;
+  color: #ECD9D9;
+  font-size: 3rem; }
+
+.footer a:hover {
+  color: #6f42c1; }
+
+.footer p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.17px; }

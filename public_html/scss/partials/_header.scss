@@ -13,15 +13,15 @@ header {
             color: $dark;
         }
     }
-    
-    
+
+
 
     .navbar-nav
     {
         background-color: #FFFFF;
         text-align: center;
-        
-       a{
+
+        a{
             font-weight: 400;
             font-size: 1.4rem;
             line-height: 1.7rem;
@@ -36,9 +36,21 @@ header {
                 margin-inline: 36px !important;
             }
         }
+
+        a:hover{
+            border-bottom: 1px solid #ECD9D9;
+        }
+
+        .submenu{
+            display: none;
+        }
+        
+        span{
+            padding: 0px 5px;
+        }
+
     }
-   
-  .navbar-nav  a:hover{
-        border-bottom: 1px solid #ECD9D9;
-    } 
+
+
 }
+
