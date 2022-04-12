@@ -719,11 +719,11 @@ progress {
 
 .g-6,
 .gx-6 {
-  --bs-gutter-x:  3rem; }
+  --bs-gutter-x: c 3rem; }
 
 .g-6,
 .gy-6 {
-  --bs-gutter-y: 3rem; }
+  --bs-gutter-y: c 3rem; }
 
 .g-7,
 .gx-7 {
@@ -890,10 +890,10 @@ progress {
     --bs-gutter-y: 2.5rem; }
   .g-xm-6,
   .gx-xm-6 {
-    --bs-gutter-x:  3rem; }
+    --bs-gutter-x: c 3rem; }
   .g-xm-6,
   .gy-xm-6 {
-    --bs-gutter-y: 3rem; }
+    --bs-gutter-y: c 3rem; }
   .g-xm-7,
   .gx-xm-7 {
     --bs-gutter-x: 3.5rem; }
@@ -1050,10 +1050,10 @@ progress {
     --bs-gutter-y: 2.5rem; }
   .g-sm-6,
   .gx-sm-6 {
-    --bs-gutter-x:  3rem; }
+    --bs-gutter-x: c 3rem; }
   .g-sm-6,
   .gy-sm-6 {
-    --bs-gutter-y:  3rem; }
+    --bs-gutter-y: c 3rem; }
   .g-sm-7,
   .gx-sm-7 {
     --bs-gutter-x: 3.5rem; }
@@ -1210,10 +1210,10 @@ progress {
     --bs-gutter-y: 2.5rem; }
   .g-md-6,
   .gx-md-6 {
-    --bs-gutter-x: 3rem; }
+    --bs-gutter-x: c 3rem; }
   .g-md-6,
   .gy-md-6 {
-    --bs-gutter-y: 3rem; }
+    --bs-gutter-y: c 3rem; }
   .g-md-7,
   .gx-md-7 {
     --bs-gutter-x: 3.5rem; }
@@ -1370,10 +1370,10 @@ progress {
     --bs-gutter-y: 2.5rem; }
   .g-lg-6,
   .gx-lg-6 {
-    --bs-gutter-x:  3rem; }
+    --bs-gutter-x: c 3rem; }
   .g-lg-6,
   .gy-lg-6 {
-    --bs-gutter-y:  3rem; }
+    --bs-gutter-y: c 3rem; }
   .g-lg-7,
   .gx-lg-7 {
     --bs-gutter-x: 3.5rem; }
@@ -1530,10 +1530,10 @@ progress {
     --bs-gutter-y: 2.5rem; }
   .g-xl-6,
   .gx-xl-6 {
-    --bs-gutter-x:  3rem; }
+    --bs-gutter-x: c 3rem; }
   .g-xl-6,
   .gy-xl-6 {
-    --bs-gutter-y:  3rem; }
+    --bs-gutter-y: c 3rem; }
   .g-xl-7,
   .gx-xl-7 {
     --bs-gutter-x: 3.5rem; }
@@ -5715,7 +5715,7 @@ textarea.form-control-lg {
   gap: 2.5rem !important; }
 
 .gap-6 {
-  gap:  3rem !important; }
+  gap: c 3rem !important; }
 
 .gap-7 {
   gap: 3.5rem !important; }
@@ -5844,7 +5844,7 @@ textarea.form-control-lg {
   margin: 2.5rem !important; }
 
 .m-6 {
-  margin: 3rem !important; }
+  margin: c 3rem !important; }
 
 .m-7 {
   margin: 3.5rem !important; }
@@ -5889,8 +5889,8 @@ textarea.form-control-lg {
   margin-left: 2.5rem !important; }
 
 .mx-6 {
-  margin-right:  3rem !important;
-  margin-left:  3rem !important; }
+  margin-right: c 3rem !important;
+  margin-left: c 3rem !important; }
 
 .mx-7 {
   margin-right: 3.5rem !important;
@@ -5941,8 +5941,8 @@ textarea.form-control-lg {
   margin-bottom: 2.5rem !important; }
 
 .my-6 {
-  margin-top:  3rem !important;
-  margin-bottom:  3rem !important; }
+  margin-top: c 3rem !important;
+  margin-bottom: c 3rem !important; }
 
 .my-7 {
   margin-top: 3.5rem !important;
@@ -5987,7 +5987,7 @@ textarea.form-control-lg {
   margin-top: 2.5rem !important; }
 
 .mt-6 {
-  margin-top:  3rem !important; }
+  margin-top: c 3rem !important; }
 
 .mt-7 {
   margin-top: 3.5rem !important; }
@@ -6026,7 +6026,7 @@ textarea.form-control-lg {
   margin-right: 2.5rem !important; }
 
 .me-6 {
-  margin-right:  3rem !important; }
+  margin-right: c 3rem !important; }
 
 .me-7 {
   margin-right: 3.5rem !important; }
@@ -6065,7 +6065,7 @@ textarea.form-control-lg {
   margin-bottom: 2.5rem !important; }
 
 .mb-6 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: c 3rem !important; }
 
 .mb-7 {
   margin-bottom: 3.5rem !important; }
@@ -6104,7 +6104,7 @@ textarea.form-control-lg {
   margin-left: 2.5rem !important; }
 
 .ms-6 {
-  margin-left:  3rem !important; }
+  margin-left: c 3rem !important; }
 
 .ms-7 {
   margin-left: 3.5rem !important; }
@@ -6143,7 +6143,7 @@ textarea.form-control-lg {
   padding: 2.5rem !important; }
 
 .p-6 {
-  padding:  3rem !important; }
+  padding: c 3rem !important; }
 
 .p-7 {
   padding: 3.5rem !important; }
@@ -6185,8 +6185,8 @@ textarea.form-control-lg {
   padding-left: 2.5rem !important; }
 
 .px-6 {
-  padding-right:  3rem !important;
-  padding-left:  3rem !important; }
+  padding-right: c 3rem !important;
+  padding-left: c 3rem !important; }
 
 .px-7 {
   padding-right: 3.5rem !important;
@@ -6233,8 +6233,8 @@ textarea.form-control-lg {
   padding-bottom: 2.5rem !important; }
 
 .py-6 {
-  padding-top:  3rem !important;
-  padding-bottom:  3rem !important; }
+  padding-top: c 3rem !important;
+  padding-bottom: c 3rem !important; }
 
 .py-7 {
   padding-top: 3.5rem !important;
@@ -6275,7 +6275,7 @@ textarea.form-control-lg {
   padding-top: 2.5rem !important; }
 
 .pt-6 {
-  padding-top:  3rem !important; }
+  padding-top: c 3rem !important; }
 
 .pt-7 {
   padding-top: 3.5rem !important; }
@@ -6311,7 +6311,7 @@ textarea.form-control-lg {
   padding-right: 2.5rem !important; }
 
 .pe-6 {
-  padding-right:  3rem !important; }
+  padding-right: c 3rem !important; }
 
 .pe-7 {
   padding-right: 3.5rem !important; }
@@ -6347,7 +6347,7 @@ textarea.form-control-lg {
   padding-bottom: 2.5rem !important; }
 
 .pb-6 {
-  padding-bottom:  3rem !important; }
+  padding-bottom: c 3rem !important; }
 
 .pb-7 {
   padding-bottom: 3.5rem !important; }
@@ -6383,7 +6383,7 @@ textarea.form-control-lg {
   padding-left: 2.5rem !important; }
 
 .ps-6 {
-  padding-left:  3rem !important; }
+  padding-left: c 3rem !important; }
 
 .ps-7 {
   padding-left: 3.5rem !important; }
@@ -6753,7 +6753,7 @@ textarea.form-control-lg {
   .gap-xm-5 {
     gap: 2.5rem !important; }
   .gap-xm-6 {
-    gap:  3rem !important; }
+    gap: c 3rem !important; }
   .gap-xm-7 {
     gap: 3.5rem !important; }
   .gap-xm-8 {
@@ -6839,7 +6839,7 @@ textarea.form-control-lg {
   .m-xm-5 {
     margin: 2.5rem !important; }
   .m-xm-6 {
-    margin: 3rem !important; }
+    margin: c 3rem !important; }
   .m-xm-7 {
     margin: 3.5rem !important; }
   .m-xm-8 {
@@ -6871,8 +6871,8 @@ textarea.form-control-lg {
     margin-right: 2.5rem !important;
     margin-left: 2.5rem !important; }
   .mx-xm-6 {
-    margin-right:  3rem !important;
-    margin-left:  3rem !important; }
+    margin-right: c 3rem !important;
+    margin-left: c 3rem !important; }
   .mx-xm-7 {
     margin-right: 3.5rem !important;
     margin-left: 3.5rem !important; }
@@ -6910,8 +6910,8 @@ textarea.form-control-lg {
     margin-top: 2.5rem !important;
     margin-bottom: 2.5rem !important; }
   .my-xm-6 {
-    margin-top:  3rem !important;
-    margin-bottom:  3rem !important; }
+    margin-top: c 3rem !important;
+    margin-bottom: c 3rem !important; }
   .my-xm-7 {
     margin-top: 3.5rem !important;
     margin-bottom: 3.5rem !important; }
@@ -6943,7 +6943,7 @@ textarea.form-control-lg {
   .mt-xm-5 {
     margin-top: 2.5rem !important; }
   .mt-xm-6 {
-    margin-top:  3rem !important; }
+    margin-top: c 3rem !important; }
   .mt-xm-7 {
     margin-top: 3.5rem !important; }
   .mt-xm-8 {
@@ -6969,7 +6969,7 @@ textarea.form-control-lg {
   .me-xm-5 {
     margin-right: 2.5rem !important; }
   .me-xm-6 {
-    margin-right:  3rem !important; }
+    margin-right: c 3rem !important; }
   .me-xm-7 {
     margin-right: 3.5rem !important; }
   .me-xm-8 {
@@ -6995,7 +6995,7 @@ textarea.form-control-lg {
   .mb-xm-5 {
     margin-bottom: 2.5rem !important; }
   .mb-xm-6 {
-    margin-bottom:  3rem !important; }
+    margin-bottom: c 3rem !important; }
   .mb-xm-7 {
     margin-bottom: 3.5rem !important; }
   .mb-xm-8 {
@@ -7021,7 +7021,7 @@ textarea.form-control-lg {
   .ms-xm-5 {
     margin-left: 2.5rem !important; }
   .ms-xm-6 {
-    margin-left:  3rem !important; }
+    margin-left: c 3rem !important; }
   .ms-xm-7 {
     margin-left: 3.5rem !important; }
   .ms-xm-8 {
@@ -7047,7 +7047,7 @@ textarea.form-control-lg {
   .p-xm-5 {
     padding: 2.5rem !important; }
   .p-xm-6 {
-    padding:  3rem !important; }
+    padding: c 3rem !important; }
   .p-xm-7 {
     padding: 3.5rem !important; }
   .p-xm-8 {
@@ -7077,8 +7077,8 @@ textarea.form-control-lg {
     padding-right: 2.5rem !important;
     padding-left: 2.5rem !important; }
   .px-xm-6 {
-    padding-right:  3rem !important;
-    padding-left:  3rem !important; }
+    padding-right: c 3rem !important;
+    padding-left: c 3rem !important; }
   .px-xm-7 {
     padding-right: 3.5rem !important;
     padding-left: 3.5rem !important; }
@@ -7113,8 +7113,8 @@ textarea.form-control-lg {
     padding-top: 2.5rem !important;
     padding-bottom: 2.5rem !important; }
   .py-xm-6 {
-    padding-top:  3rem !important;
-    padding-bottom:  3rem !important; }
+    padding-top: c 3rem !important;
+    padding-bottom: c 3rem !important; }
   .py-xm-7 {
     padding-top: 3.5rem !important;
     padding-bottom: 3.5rem !important; }
@@ -7143,7 +7143,7 @@ textarea.form-control-lg {
   .pt-xm-5 {
     padding-top: 2.5rem !important; }
   .pt-xm-6 {
-    padding-top:  3rem !important; }
+    padding-top: c 3rem !important; }
   .pt-xm-7 {
     padding-top: 3.5rem !important; }
   .pt-xm-8 {
@@ -7167,7 +7167,7 @@ textarea.form-control-lg {
   .pe-xm-5 {
     padding-right: 2.5rem !important; }
   .pe-xm-6 {
-    padding-right:  3rem !important; }
+    padding-right: c 3rem !important; }
   .pe-xm-7 {
     padding-right: 3.5rem !important; }
   .pe-xm-8 {
@@ -7191,7 +7191,7 @@ textarea.form-control-lg {
   .pb-xm-5 {
     padding-bottom: 2.5rem !important; }
   .pb-xm-6 {
-    padding-bottom:  3rem !important; }
+    padding-bottom: c 3rem !important; }
   .pb-xm-7 {
     padding-bottom: 3.5rem !important; }
   .pb-xm-8 {
@@ -7215,7 +7215,7 @@ textarea.form-control-lg {
   .ps-xm-5 {
     padding-left: 2.5rem !important; }
   .ps-xm-6 {
-    padding-left:  3rem !important; }
+    padding-left: c 3rem !important; }
   .ps-xm-7 {
     padding-left: 3.5rem !important; }
   .ps-xm-8 {
@@ -7297,7 +7297,7 @@ textarea.form-control-lg {
   .gap-sm-5 {
     gap: 2.5rem !important; }
   .gap-sm-6 {
-    gap:  3rem !important; }
+    gap: c 3rem !important; }
   .gap-sm-7 {
     gap: 3.5rem !important; }
   .gap-sm-8 {
@@ -7383,7 +7383,7 @@ textarea.form-control-lg {
   .m-sm-5 {
     margin: 2.5rem !important; }
   .m-sm-6 {
-    margin:  3rem !important; }
+    margin: c 3rem !important; }
   .m-sm-7 {
     margin: 3.5rem !important; }
   .m-sm-8 {
@@ -7415,8 +7415,8 @@ textarea.form-control-lg {
     margin-right: 2.5rem !important;
     margin-left: 2.5rem !important; }
   .mx-sm-6 {
-    margin-right:  3rem !important;
-    margin-left:  3rem !important; }
+    margin-right: c 3rem !important;
+    margin-left: c 3rem !important; }
   .mx-sm-7 {
     margin-right: 3.5rem !important;
     margin-left: 3.5rem !important; }
@@ -7454,8 +7454,8 @@ textarea.form-control-lg {
     margin-top: 2.5rem !important;
     margin-bottom: 2.5rem !important; }
   .my-sm-6 {
-    margin-top:  3rem !important;
-    margin-bottom:  3rem !important; }
+    margin-top: c 3rem !important;
+    margin-bottom: c 3rem !important; }
   .my-sm-7 {
     margin-top: 3.5rem !important;
     margin-bottom: 3.5rem !important; }
@@ -7487,7 +7487,7 @@ textarea.form-control-lg {
   .mt-sm-5 {
     margin-top: 2.5rem !important; }
   .mt-sm-6 {
-    margin-top:  3rem !important; }
+    margin-top: c 3rem !important; }
   .mt-sm-7 {
     margin-top: 3.5rem !important; }
   .mt-sm-8 {
@@ -7513,7 +7513,7 @@ textarea.form-control-lg {
   .me-sm-5 {
     margin-right: 2.5rem !important; }
   .me-sm-6 {
-    margin-right:  3rem !important; }
+    margin-right: c 3rem !important; }
   .me-sm-7 {
     margin-right: 3.5rem !important; }
   .me-sm-8 {
@@ -7539,7 +7539,7 @@ textarea.form-control-lg {
   .mb-sm-5 {
     margin-bottom: 2.5rem !important; }
   .mb-sm-6 {
-    margin-bottom:  3rem !important; }
+    margin-bottom: c 3rem !important; }
   .mb-sm-7 {
     margin-bottom: 3.5rem !important; }
   .mb-sm-8 {
@@ -7565,7 +7565,7 @@ textarea.form-control-lg {
   .ms-sm-5 {
     margin-left: 2.5rem !important; }
   .ms-sm-6 {
-    margin-left:  3rem !important; }
+    margin-left: c 3rem !important; }
   .ms-sm-7 {
     margin-left: 3.5rem !important; }
   .ms-sm-8 {
@@ -7591,7 +7591,7 @@ textarea.form-control-lg {
   .p-sm-5 {
     padding: 2.5rem !important; }
   .p-sm-6 {
-    padding:  3rem !important; }
+    padding: c 3rem !important; }
   .p-sm-7 {
     padding: 3.5rem !important; }
   .p-sm-8 {
@@ -7621,8 +7621,8 @@ textarea.form-control-lg {
     padding-right: 2.5rem !important;
     padding-left: 2.5rem !important; }
   .px-sm-6 {
-    padding-right:  3rem !important;
-    padding-left:  3rem !important; }
+    padding-right: c 3rem !important;
+    padding-left: c 3rem !important; }
   .px-sm-7 {
     padding-right: 3.5rem !important;
     padding-left: 3.5rem !important; }
@@ -7657,8 +7657,8 @@ textarea.form-control-lg {
     padding-top: 2.5rem !important;
     padding-bottom: 2.5rem !important; }
   .py-sm-6 {
-    padding-top:  3rem !important;
-    padding-bottom:  3rem !important; }
+    padding-top: c 3rem !important;
+    padding-bottom: c 3rem !important; }
   .py-sm-7 {
     padding-top: 3.5rem !important;
     padding-bottom: 3.5rem !important; }
@@ -7687,7 +7687,7 @@ textarea.form-control-lg {
   .pt-sm-5 {
     padding-top: 2.5rem !important; }
   .pt-sm-6 {
-    padding-top:  3rem !important; }
+    padding-top: c 3rem !important; }
   .pt-sm-7 {
     padding-top: 3.5rem !important; }
   .pt-sm-8 {
@@ -7711,7 +7711,7 @@ textarea.form-control-lg {
   .pe-sm-5 {
     padding-right: 2.5rem !important; }
   .pe-sm-6 {
-    padding-right:  3rem !important; }
+    padding-right: c 3rem !important; }
   .pe-sm-7 {
     padding-right: 3.5rem !important; }
   .pe-sm-8 {
@@ -7735,7 +7735,7 @@ textarea.form-control-lg {
   .pb-sm-5 {
     padding-bottom: 2.5rem !important; }
   .pb-sm-6 {
-    padding-bottom:  3rem !important; }
+    padding-bottom: c 3rem !important; }
   .pb-sm-7 {
     padding-bottom: 3.5rem !important; }
   .pb-sm-8 {
@@ -7759,7 +7759,7 @@ textarea.form-control-lg {
   .ps-sm-5 {
     padding-left: 2.5rem !important; }
   .ps-sm-6 {
-    padding-left:  3rem !important; }
+    padding-left: c 3rem !important; }
   .ps-sm-7 {
     padding-left: 3.5rem !important; }
   .ps-sm-8 {
@@ -7841,7 +7841,7 @@ textarea.form-control-lg {
   .gap-md-5 {
     gap: 2.5rem !important; }
   .gap-md-6 {
-    gap:  3rem !important; }
+    gap: c 3rem !important; }
   .gap-md-7 {
     gap: 3.5rem !important; }
   .gap-md-8 {
@@ -7927,7 +7927,7 @@ textarea.form-control-lg {
   .m-md-5 {
     margin: 2.5rem !important; }
   .m-md-6 {
-    margin:  3rem !important; }
+    margin: c 3rem !important; }
   .m-md-7 {
     margin: 3.5rem !important; }
   .m-md-8 {
@@ -7959,8 +7959,8 @@ textarea.form-control-lg {
     margin-right: 2.5rem !important;
     margin-left: 2.5rem !important; }
   .mx-md-6 {
-    margin-right:  3rem !important;
-    margin-left:  3rem !important; }
+    margin-right: c 3rem !important;
+    margin-left: c 3rem !important; }
   .mx-md-7 {
     margin-right: 3.5rem !important;
     margin-left: 3.5rem !important; }
@@ -7998,8 +7998,8 @@ textarea.form-control-lg {
     margin-top: 2.5rem !important;
     margin-bottom: 2.5rem !important; }
   .my-md-6 {
-    margin-top:  3rem !important;
-    margin-bottom:  3rem !important; }
+    margin-top: c 3rem !important;
+    margin-bottom: c 3rem !important; }
   .my-md-7 {
     margin-top: 3.5rem !important;
     margin-bottom: 3.5rem !important; }
@@ -8031,7 +8031,7 @@ textarea.form-control-lg {
   .mt-md-5 {
     margin-top: 2.5rem !important; }
   .mt-md-6 {
-    margin-top:  3rem !important; }
+    margin-top: c 3rem !important; }
   .mt-md-7 {
     margin-top: 3.5rem !important; }
   .mt-md-8 {
@@ -8057,7 +8057,7 @@ textarea.form-control-lg {
   .me-md-5 {
     margin-right: 2.5rem !important; }
   .me-md-6 {
-    margin-right:  3rem !important; }
+    margin-right: c 3rem !important; }
   .me-md-7 {
     margin-right: 3.5rem !important; }
   .me-md-8 {
@@ -8083,7 +8083,7 @@ textarea.form-control-lg {
   .mb-md-5 {
     margin-bottom: 2.5rem !important; }
   .mb-md-6 {
-    margin-bottom:  3rem !important; }
+    margin-bottom: c 3rem !important; }
   .mb-md-7 {
     margin-bottom: 3.5rem !important; }
   .mb-md-8 {
@@ -8109,7 +8109,7 @@ textarea.form-control-lg {
   .ms-md-5 {
     margin-left: 2.5rem !important; }
   .ms-md-6 {
-    margin-left:  3rem !important; }
+    margin-left: c 3rem !important; }
   .ms-md-7 {
     margin-left: 3.5rem !important; }
   .ms-md-8 {
@@ -8135,7 +8135,7 @@ textarea.form-control-lg {
   .p-md-5 {
     padding: 2.5rem !important; }
   .p-md-6 {
-    padding:  3rem !important; }
+    padding: c 3rem !important; }
   .p-md-7 {
     padding: 3.5rem !important; }
   .p-md-8 {
@@ -8165,8 +8165,8 @@ textarea.form-control-lg {
     padding-right: 2.5rem !important;
     padding-left: 2.5rem !important; }
   .px-md-6 {
-    padding-right:  3rem !important;
-    padding-left:  3rem !important; }
+    padding-right: c 3rem !important;
+    padding-left: c 3rem !important; }
   .px-md-7 {
     padding-right: 3.5rem !important;
     padding-left: 3.5rem !important; }
@@ -8201,8 +8201,8 @@ textarea.form-control-lg {
     padding-top: 2.5rem !important;
     padding-bottom: 2.5rem !important; }
   .py-md-6 {
-    padding-top:  3rem !important;
-    padding-bottom:  3rem !important; }
+    padding-top: c 3rem !important;
+    padding-bottom: c 3rem !important; }
   .py-md-7 {
     padding-top: 3.5rem !important;
     padding-bottom: 3.5rem !important; }
@@ -8231,7 +8231,7 @@ textarea.form-control-lg {
   .pt-md-5 {
     padding-top: 2.5rem !important; }
   .pt-md-6 {
-    padding-top:  3rem !important; }
+    padding-top: c 3rem !important; }
   .pt-md-7 {
     padding-top: 3.5rem !important; }
   .pt-md-8 {
@@ -8255,7 +8255,7 @@ textarea.form-control-lg {
   .pe-md-5 {
     padding-right: 2.5rem !important; }
   .pe-md-6 {
-    padding-right:  3rem !important; }
+    padding-right: c 3rem !important; }
   .pe-md-7 {
     padding-right: 3.5rem !important; }
   .pe-md-8 {
@@ -8279,7 +8279,7 @@ textarea.form-control-lg {
   .pb-md-5 {
     padding-bottom: 2.5rem !important; }
   .pb-md-6 {
-    padding-bottom:  3rem !important; }
+    padding-bottom: c 3rem !important; }
   .pb-md-7 {
     padding-bottom: 3.5rem !important; }
   .pb-md-8 {
@@ -8303,7 +8303,7 @@ textarea.form-control-lg {
   .ps-md-5 {
     padding-left: 2.5rem !important; }
   .ps-md-6 {
-    padding-left:  3rem !important; }
+    padding-left: c 3rem !important; }
   .ps-md-7 {
     padding-left: 3.5rem !important; }
   .ps-md-8 {
@@ -8385,7 +8385,7 @@ textarea.form-control-lg {
   .gap-lg-5 {
     gap: 2.5rem !important; }
   .gap-lg-6 {
-    gap:  3rem !important; }
+    gap: c 3rem !important; }
   .gap-lg-7 {
     gap: 3.5rem !important; }
   .gap-lg-8 {
@@ -8471,7 +8471,7 @@ textarea.form-control-lg {
   .m-lg-5 {
     margin: 2.5rem !important; }
   .m-lg-6 {
-    margin:  3rem !important; }
+    margin: c 3rem !important; }
   .m-lg-7 {
     margin: 3.5rem !important; }
   .m-lg-8 {
@@ -8503,8 +8503,8 @@ textarea.form-control-lg {
     margin-right: 2.5rem !important;
     margin-left: 2.5rem !important; }
   .mx-lg-6 {
-    margin-right:  3rem !important;
-    margin-left:  3rem !important; }
+    margin-right: c 3rem !important;
+    margin-left: c 3rem !important; }
   .mx-lg-7 {
     margin-right: 3.5rem !important;
     margin-left: 3.5rem !important; }
@@ -8542,8 +8542,8 @@ textarea.form-control-lg {
     margin-top: 2.5rem !important;
     margin-bottom: 2.5rem !important; }
   .my-lg-6 {
-    margin-top:  3rem !important;
-    margin-bottom:  3rem !important; }
+    margin-top: c 3rem !important;
+    margin-bottom: c 3rem !important; }
   .my-lg-7 {
     margin-top: 3.5rem !important;
     margin-bottom: 3.5rem !important; }
@@ -8575,7 +8575,7 @@ textarea.form-control-lg {
   .mt-lg-5 {
     margin-top: 2.5rem !important; }
   .mt-lg-6 {
-    margin-top:  3rem !important; }
+    margin-top: c 3rem !important; }
   .mt-lg-7 {
     margin-top: 3.5rem !important; }
   .mt-lg-8 {
@@ -8601,7 +8601,7 @@ textarea.form-control-lg {
   .me-lg-5 {
     margin-right: 2.5rem !important; }
   .me-lg-6 {
-    margin-right:  3rem !important; }
+    margin-right: c 3rem !important; }
   .me-lg-7 {
     margin-right: 3.5rem !important; }
   .me-lg-8 {
@@ -8627,7 +8627,7 @@ textarea.form-control-lg {
   .mb-lg-5 {
     margin-bottom: 2.5rem !important; }
   .mb-lg-6 {
-    margin-bottom:  3rem !important; }
+    margin-bottom: c 3rem !important; }
   .mb-lg-7 {
     margin-bottom: 3.5rem !important; }
   .mb-lg-8 {
@@ -8653,7 +8653,7 @@ textarea.form-control-lg {
   .ms-lg-5 {
     margin-left: 2.5rem !important; }
   .ms-lg-6 {
-    margin-left:  3rem !important; }
+    margin-left: c 3rem !important; }
   .ms-lg-7 {
     margin-left: 3.5rem !important; }
   .ms-lg-8 {
@@ -8679,7 +8679,7 @@ textarea.form-control-lg {
   .p-lg-5 {
     padding: 2.5rem !important; }
   .p-lg-6 {
-    padding:  3rem !important; }
+    padding: c 3rem !important; }
   .p-lg-7 {
     padding: 3.5rem !important; }
   .p-lg-8 {
@@ -8709,8 +8709,8 @@ textarea.form-control-lg {
     padding-right: 2.5rem !important;
     padding-left: 2.5rem !important; }
   .px-lg-6 {
-    padding-right:  3rem !important;
-    padding-left:  3rem !important; }
+    padding-right: c 3rem !important;
+    padding-left: c 3rem !important; }
   .px-lg-7 {
     padding-right: 3.5rem !important;
     padding-left: 3.5rem !important; }
@@ -8745,8 +8745,8 @@ textarea.form-control-lg {
     padding-top: 2.5rem !important;
     padding-bottom: 2.5rem !important; }
   .py-lg-6 {
-    padding-top:  3rem !important;
-    padding-bottom:  3rem !important; }
+    padding-top: c 3rem !important;
+    padding-bottom: c 3rem !important; }
   .py-lg-7 {
     padding-top: 3.5rem !important;
     padding-bottom: 3.5rem !important; }
@@ -8775,7 +8775,7 @@ textarea.form-control-lg {
   .pt-lg-5 {
     padding-top: 2.5rem !important; }
   .pt-lg-6 {
-    padding-top:  3rem !important; }
+    padding-top: c 3rem !important; }
   .pt-lg-7 {
     padding-top: 3.5rem !important; }
   .pt-lg-8 {
@@ -8799,7 +8799,7 @@ textarea.form-control-lg {
   .pe-lg-5 {
     padding-right: 2.5rem !important; }
   .pe-lg-6 {
-    padding-right:  3rem !important; }
+    padding-right: c 3rem !important; }
   .pe-lg-7 {
     padding-right: 3.5rem !important; }
   .pe-lg-8 {
@@ -8823,7 +8823,7 @@ textarea.form-control-lg {
   .pb-lg-5 {
     padding-bottom: 2.5rem !important; }
   .pb-lg-6 {
-    padding-bottom:  3rem !important; }
+    padding-bottom: c 3rem !important; }
   .pb-lg-7 {
     padding-bottom: 3.5rem !important; }
   .pb-lg-8 {
@@ -8847,7 +8847,7 @@ textarea.form-control-lg {
   .ps-lg-5 {
     padding-left: 2.5rem !important; }
   .ps-lg-6 {
-    padding-left:  3rem !important; }
+    padding-left: c 3rem !important; }
   .ps-lg-7 {
     padding-left: 3.5rem !important; }
   .ps-lg-8 {
@@ -8929,7 +8929,7 @@ textarea.form-control-lg {
   .gap-xl-5 {
     gap: 2.5rem !important; }
   .gap-xl-6 {
-    gap:  3rem !important; }
+    gap: c 3rem !important; }
   .gap-xl-7 {
     gap: 3.5rem !important; }
   .gap-xl-8 {
@@ -9015,7 +9015,7 @@ textarea.form-control-lg {
   .m-xl-5 {
     margin: 2.5rem !important; }
   .m-xl-6 {
-    margin:  3rem !important; }
+    margin: c 3rem !important; }
   .m-xl-7 {
     margin: 3.5rem !important; }
   .m-xl-8 {
@@ -9047,8 +9047,8 @@ textarea.form-control-lg {
     margin-right: 2.5rem !important;
     margin-left: 2.5rem !important; }
   .mx-xl-6 {
-    margin-right:  3rem !important;
-    margin-left:  3rem !important; }
+    margin-right: c 3rem !important;
+    margin-left: c 3rem !important; }
   .mx-xl-7 {
     margin-right: 3.5rem !important;
     margin-left: 3.5rem !important; }
@@ -9086,8 +9086,8 @@ textarea.form-control-lg {
     margin-top: 2.5rem !important;
     margin-bottom: 2.5rem !important; }
   .my-xl-6 {
-    margin-top:  3rem !important;
-    margin-bottom:  3rem !important; }
+    margin-top: c 3rem !important;
+    margin-bottom: c 3rem !important; }
   .my-xl-7 {
     margin-top: 3.5rem !important;
     margin-bottom: 3.5rem !important; }
@@ -9119,7 +9119,7 @@ textarea.form-control-lg {
   .mt-xl-5 {
     margin-top: 2.5rem !important; }
   .mt-xl-6 {
-    margin-top: 3rem !important; }
+    margin-top: c 3rem !important; }
   .mt-xl-7 {
     margin-top: 3.5rem !important; }
   .mt-xl-8 {
@@ -9145,7 +9145,7 @@ textarea.form-control-lg {
   .me-xl-5 {
     margin-right: 2.5rem !important; }
   .me-xl-6 {
-    margin-right:  3rem !important; }
+    margin-right: c 3rem !important; }
   .me-xl-7 {
     margin-right: 3.5rem !important; }
   .me-xl-8 {
@@ -9171,7 +9171,7 @@ textarea.form-control-lg {
   .mb-xl-5 {
     margin-bottom: 2.5rem !important; }
   .mb-xl-6 {
-    margin-bottom:  3rem !important; }
+    margin-bottom: c 3rem !important; }
   .mb-xl-7 {
     margin-bottom: 3.5rem !important; }
   .mb-xl-8 {
@@ -9197,7 +9197,7 @@ textarea.form-control-lg {
   .ms-xl-5 {
     margin-left: 2.5rem !important; }
   .ms-xl-6 {
-    margin-left:  3rem !important; }
+    margin-left: c 3rem !important; }
   .ms-xl-7 {
     margin-left: 3.5rem !important; }
   .ms-xl-8 {
@@ -9223,7 +9223,7 @@ textarea.form-control-lg {
   .p-xl-5 {
     padding: 2.5rem !important; }
   .p-xl-6 {
-    padding:  3rem !important; }
+    padding: c 3rem !important; }
   .p-xl-7 {
     padding: 3.5rem !important; }
   .p-xl-8 {
@@ -9253,8 +9253,8 @@ textarea.form-control-lg {
     padding-right: 2.5rem !important;
     padding-left: 2.5rem !important; }
   .px-xl-6 {
-    padding-right:  3rem !important;
-    padding-left:  3rem !important; }
+    padding-right: c 3rem !important;
+    padding-left: c 3rem !important; }
   .px-xl-7 {
     padding-right: 3.5rem !important;
     padding-left: 3.5rem !important; }
@@ -9289,8 +9289,8 @@ textarea.form-control-lg {
     padding-top: 2.5rem !important;
     padding-bottom: 2.5rem !important; }
   .py-xl-6 {
-    padding-top:  3rem !important;
-    padding-bottom:  3rem !important; }
+    padding-top: c 3rem !important;
+    padding-bottom: c 3rem !important; }
   .py-xl-7 {
     padding-top: 3.5rem !important;
     padding-bottom: 3.5rem !important; }
@@ -9319,7 +9319,7 @@ textarea.form-control-lg {
   .pt-xl-5 {
     padding-top: 2.5rem !important; }
   .pt-xl-6 {
-    padding-top:  3rem !important; }
+    padding-top: c 3rem !important; }
   .pt-xl-7 {
     padding-top: 3.5rem !important; }
   .pt-xl-8 {
@@ -9343,7 +9343,7 @@ textarea.form-control-lg {
   .pe-xl-5 {
     padding-right: 2.5rem !important; }
   .pe-xl-6 {
-    padding-right:  3rem !important; }
+    padding-right: c 3rem !important; }
   .pe-xl-7 {
     padding-right: 3.5rem !important; }
   .pe-xl-8 {
@@ -9367,7 +9367,7 @@ textarea.form-control-lg {
   .pb-xl-5 {
     padding-bottom: 2.5rem !important; }
   .pb-xl-6 {
-    padding-bottom: 3rem !important; }
+    padding-bottom: c 3rem !important; }
   .pb-xl-7 {
     padding-bottom: 3.5rem !important; }
   .pb-xl-8 {
@@ -9391,7 +9391,7 @@ textarea.form-control-lg {
   .ps-xl-5 {
     padding-left: 2.5rem !important; }
   .ps-xl-6 {
-    padding-left:  3rem !important; }
+    padding-left: c 3rem !important; }
   .ps-xl-7 {
     padding-left: 3.5rem !important; }
   .ps-xl-8 {
@@ -9520,7 +9520,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     opacity: 0; }
   100% {
     transform: scale(1);
-    opacity: 1; } }
+    opacity: #about1; } }
 
 .fadeIn {
   animation-name: fadeIn;
@@ -9822,6 +9822,20 @@ header .navbar-nav {
   @media (min-width: 992px) {
     .news-single-service {
       margin-bottom: 11rem; } }
+
+.single-blog {
+  padding: 140px 0px; }
+  .single-blog .category-date {
+    font-family: "Bodoni", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-weight: 300; }
+    .single-blog .category-date .category {
+      font-weight: 700; }
+  .single-blog h1, .single-blog .h1 {
+    font-family: "Lato", sans-serif;
+    line-height: 5rem;
+    font-size: 4.4rem; }
 
 /*Footer START*/
 .footer a {

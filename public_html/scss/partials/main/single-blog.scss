@@ -1,0 +1,21 @@
+
+
+.single-blog{
+    padding: 140px 0px;
+    .category-date{
+        font-family: $bodoni;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        font-weight: 300;
+        .category{
+            font-weight: 700;
+        }
+    }
+    
+    h1{
+        font-family: $lato;
+        line-height: 5rem;
+        font-size: 4.4rem;
+    }
+}
+
