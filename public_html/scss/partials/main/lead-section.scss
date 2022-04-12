@@ -1,0 +1,28 @@
+
+.lead div{
+
+    padding: 230px 0;
+    max-width: 450px;
+
+    @media(min-width: 992px){
+        padding: 340px 0 !important;
+        max-width: 600px !important;
+    }
+
+}
+
+.lead {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.lead .lead-title{
+    @media(min-width: 992px){
+        font-size: 6rem;
+        line-height: 8.4rem;
+        letter-spacing: 2rem;
+        color: #FFFFFF;
+    }
+}
+

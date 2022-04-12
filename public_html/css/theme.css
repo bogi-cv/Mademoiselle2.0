@@ -9660,8 +9660,6 @@ header .navbar-nav {
     letter-spacing: 2rem;
     color: #FFFFFF; } }
 
-/*LEAD END*/
-/*NEWS SECTION START*/
 .news-item {
   position: relative;
   overflow: hidden; }
@@ -9753,7 +9751,6 @@ header .navbar-nav {
 .professionals .professionals-border {
   border: 1px solid #ECD9D9; }
 
-/********************************************/
 /**********ABOUT PAGE START***********/
 .about-us {
   margin-bottom: 6rem; }
@@ -9793,6 +9790,7 @@ header .navbar-nav {
     color: inherit; }
 
 /*********ABOUT PAGE END******/
+/********************************************/
 /****PAGINATION BLOG PAGE***/
 .nav-pagination a {
   border: none;

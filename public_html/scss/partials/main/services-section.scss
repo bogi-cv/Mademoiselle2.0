@@ -1,0 +1,33 @@
+
+/*SERVICES START*/
+
+.service-item-data{
+    
+    @media(min-width: 992px){
+        padding-top: 12rem !important;
+    }
+}
+
+.service-item{
+    background-color: #F5F5F5;
+}
+
+.service-item:nth-of-type(even){
+    background-color: #ECD9D9;
+}
+
+.service-item:nth-of-type(odd){
+   @media(min-width:768px) {
+       .service-item-img-col{
+        order: 2;
+    }}
+}
+
+.services{
+    margin-bottom: 8rem;
+    @media(min-width: 992px){
+        margin-bottom: 11rem;}
+}
+
+
+

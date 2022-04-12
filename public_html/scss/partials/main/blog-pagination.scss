@@ -1,0 +1,25 @@
+/****PAGINATION BLOG PAGE***/
+
+.nav-pagination{
+    a{
+        border: none;
+        font-family: $bodoni;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-left: 0px !important;
+          transition: none;
+    } 
+    
+    a:focus{
+        box-shadow: none;
+        color: inherit;
+    }
+    a:hover{
+        background-color: transparent;
+        color: inherit;
+        transition: none;
+    }
+    
+   
+}
+

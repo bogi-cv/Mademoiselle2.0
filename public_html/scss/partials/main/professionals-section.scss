@@ -1,0 +1,30 @@
+
+
+/*PROFESSIONALS START*/
+
+.professionals .row{
+    padding: 3rem 5rem 3rem 5rem;
+    
+   @media(min-width: 768px) {padding: 5rem 9rem 5rem 9rem;}
+}
+
+.professionals{
+    article{
+        h5{
+            font-family: $lato;
+            font-size: 3rem;
+            line-height: 4rem;
+            color: $dark;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        
+        p{
+            font-size: 1.6rem;
+            line-height: 2.3rem;
+        }
+}
+ .professionals-border{
+            border: 1px solid #ECD9D9;
+        }
+}
