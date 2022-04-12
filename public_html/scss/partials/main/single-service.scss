@@ -1,0 +1,27 @@
+
+.single-service{
+    padding: 120px 0px;
+    
+    .single-service-content{
+    
+        h1{
+            font-family: $lato;
+            font-size: 4.4rem;
+            line-height: 5rem;
+            margin-bottom: 2.5rem;
+            text-transform: uppercase;
+        }
+       
+    }
+    
+}
+
+
+.news-single-service{
+    margin-bottom: 5rem;
+    @media(min-width: 992px){
+        margin-bottom: 11rem;
+    }
+}
+
+

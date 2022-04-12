@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 
 
-// animation start
+ // animation start
     function animation() {
         var windowHight = $(window).height();
         var scroll = $(window).scrollTop();
@@ -11,13 +11,13 @@ $(document).ready(function () {
             var pozicija = $(this).offset().top;
             var animacija = $(this).attr('data-animation');
             var delay = $(this).attr('data-delay');
-            if (pozicija < scroll + windowHight - 50) {
+            if (pozicija < scroll + windowHight - 100) {
                 $(this).css('animation-delay', delay);
                 $(this).addClass(animacija);
             }
         });
-    }
 
+    }
 
 
     animation();

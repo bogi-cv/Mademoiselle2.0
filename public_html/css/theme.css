@@ -9520,7 +9520,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     opacity: 0; }
   100% {
     transform: scale(1);
-    opacity: #about1; } }
+    opacity: 1; } }
 
 .fadeIn {
   animation-name: fadeIn;
@@ -9790,7 +9790,6 @@ header .navbar-nav {
     color: inherit; }
 
 /*********ABOUT PAGE END******/
-/********************************************/
 /****PAGINATION BLOG PAGE***/
 .nav-pagination a {
   border: none;
@@ -9808,6 +9807,21 @@ header .navbar-nav {
   background-color: transparent;
   color: inherit;
   transition: none; }
+
+.single-service {
+  padding: 120px 0px; }
+  .single-service .single-service-content h1, .single-service .single-service-content .h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase; }
+
+.news-single-service {
+  margin-bottom: 5rem; }
+  @media (min-width: 992px) {
+    .news-single-service {
+      margin-bottom: 11rem; } }
 
 /*Footer START*/
 .footer a {
