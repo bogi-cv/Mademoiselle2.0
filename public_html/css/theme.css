@@ -9453,6 +9453,14 @@ textarea.form-control-lg {
   font-style: normal;
   font-display: swap; }
 
+@font-face {
+  font-family: 'Bodoni light';
+  src: url("./fonts/Bodoni-Book.eot");
+  src: local("Bodoni Book"), local("Bodoni-Book"), url("./fonts/Bodoni-Book.eot?#iefix") format("embedded-opentype"), url("./fonts/Bodoni-Book.woff2") format("woff2"), url("./fonts/Bodoni-Book.woff") format("woff"), url("./fonts/Bodoni-Book.ttf") format("truetype"), url("./fonts/Bodoni-Book.svg#Bodoni-Book") format("svg");
+  font-weight: light;
+  font-style: normal;
+  font-display: swap; }
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
@@ -9608,6 +9616,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #6f42c1;
   border: 1px solid #6f42c1; }
 
+.error-msg {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  color: #dc3545;
+  font-size: 1.3rem; }
+
 .navbar .navbar-brand img {
   max-width: 196px; }
 
@@ -9639,6 +9653,63 @@ header .navbar-nav {
     display: none; }
   header .navbar-nav span {
     padding: 0px 5px; }
+
+/**********ABOUT PAGE START***********/
+.about-us {
+  margin-bottom: 6rem; }
+  @media (min-width: 992px) {
+    .about-us {
+      margin-bottom: 10rem; } }
+  .about-us .about-us-content h3, .about-us .about-us-content .h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 4rem; }
+  .about-us .about-us-content p {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 5rem;
+    padding: 0px 2rem; }
+    @media (min-width: 992px) {
+      .about-us .about-us-content p {
+        padding: 0px; } }
+  .about-us .about-us-content figure {
+    margin-bottom: 6rem; }
+  .about-us .about-us-content figure + p {
+    font-size: 1.8rem;
+    line-height: 2.6rem; }
+    @media (min-width: 992px) {
+      .about-us .about-us-content figure + p {
+        padding: 0px; } }
+  .about-us .form-group .input-group {
+    border: 1px solid #1e1e1e;
+    padding: 1.5rem; }
+  .about-us .form-group .form-control {
+    border: transparent;
+    padding: 0px; }
+  .about-us .form-group .form-control:focus {
+    box-shadow: none; }
+  .about-us .form-group span {
+    color: inherit; }
+
+/*********ABOUT PAGE END******/
+/****PAGINATION BLOG PAGE***/
+.nav-pagination a {
+  border: none;
+  font-family: "Bodoni", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-left: 0px !important;
+  transition: none; }
+
+.nav-pagination a:focus {
+  box-shadow: none;
+  color: inherit; }
+
+.nav-pagination a:hover {
+  background-color: transparent;
+  color: inherit;
+  transition: none; }
 
 .lead {
   background-size: cover;
@@ -9699,27 +9770,6 @@ header .navbar-nav {
   .news .news-item-data:hover {
     background-color: #ECD9D9; }
 
-/*SERVICES START*/
-@media (min-width: 992px) {
-  .service-item-data {
-    padding-top: 12rem !important; } }
-
-.service-item {
-  background-color: #F5F5F5; }
-
-.service-item:nth-of-type(even) {
-  background-color: #ECD9D9; }
-
-@media (min-width: 768px) {
-  .service-item:nth-of-type(odd) .service-item-img-col {
-    order: 2; } }
-
-.services {
-  margin-bottom: 8rem; }
-  @media (min-width: 992px) {
-    .services {
-      margin-bottom: 11rem; } }
-
 /*PROFESSIONALS START*/
 .professionals .row {
   padding: 3rem 5rem 3rem 5rem; }
@@ -9742,82 +9792,43 @@ header .navbar-nav {
 .professionals .professionals-border {
   border: 1px solid #ECD9D9; }
 
-/**********ABOUT PAGE START***********/
-.about-us {
-  margin-bottom: 6rem; }
+/*SERVICES START*/
+@media (min-width: 992px) {
+  .service-item-data {
+    padding-top: 12rem !important; } }
+
+.service-item {
+  background-color: #F5F5F5; }
+
+.service-item:nth-of-type(even) {
+  background-color: #ECD9D9; }
+
+@media (min-width: 768px) {
+  .service-item:nth-of-type(odd) .service-item-img-col {
+    order: 2; } }
+
+.services {
+  margin-bottom: 8rem; }
   @media (min-width: 992px) {
-    .about-us {
-      margin-bottom: 10rem; } }
-  .about-us .about-us-content h3, .about-us .about-us-content .h3 {
-    font-family: "Lato", sans-serif;
-    font-size: 4.4rem;
-    line-height: 5rem;
-    margin-bottom: 4rem; }
-  .about-us .about-us-content p {
-    font-size: 2rem;
-    line-height: 2.8rem;
-    margin-bottom: 5rem;
-    padding: 0px 2rem; }
-    @media (min-width: 992px) {
-      .about-us .about-us-content p {
-        padding: 0px; } }
-  .about-us .about-us-content figure {
-    margin-bottom: 6rem; }
-  .about-us .about-us-content figure + p {
-    font-size: 1.8rem;
-    line-height: 2.6rem; }
-    @media (min-width: 992px) {
-      .about-us .about-us-content figure + p {
-        padding: 0px; } }
-  .about-us .form-group .input-group {
-    border: 1px solid #1e1e1e;
-    padding: 1.5rem; }
-  .about-us .form-group .form-control {
-    border: transparent;
-    padding: 0px; }
-  .about-us .form-group .form-control:focus {
-    box-shadow: none; }
-  .about-us .form-group span {
-    color: inherit; }
-
-/*********ABOUT PAGE END******/
-/****PAGINATION BLOG PAGE***/
-.nav-pagination a {
-  border: none;
-  font-family: "Bodoni", sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  margin-left: 0px !important;
-  transition: none; }
-
-.nav-pagination a:focus {
-  box-shadow: none;
-  color: inherit; }
-
-.nav-pagination a:hover {
-  background-color: transparent;
-  color: inherit;
-  transition: none; }
-
-.single-service {
-  padding: 120px 0px; }
-  .single-service .single-service-content h1, .single-service .single-service-content .h1 {
-    font-family: "Lato", sans-serif;
-    font-size: 4.4rem;
-    line-height: 5rem;
-    margin-bottom: 2.5rem;
-    text-transform: uppercase; }
-
-.news-single-service {
-  margin-bottom: 5rem; }
-  @media (min-width: 992px) {
-    .news-single-service {
+    .services {
       margin-bottom: 11rem; } }
 
 .single-blog {
   padding: 140px 0px; }
   .single-blog p {
     text-align: justify; }
+  .single-blog .tags-title {
+    font-family: "Bodoni light", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    font-weight: 300; }
+  .single-blog .tags p {
+    font-family: "Bodoni light", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.7rem; }
+    .single-blog .tags p a {
+      padding: 1rem 2.5rem;
+      background-color: #F5F5F5; }
   .single-blog .single-blog-heading .heading-content {
     font-size: 2rem;
     line-height: 2.6rem; }
@@ -9842,6 +9853,55 @@ header .navbar-nav {
     @media (min-width: 992px) {
       .single-blog .row {
         margin-bottom: 9rem; } }
+
+.single-service {
+  padding: 120px 0px; }
+  .single-service .single-service-content h1, .single-service .single-service-content .h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase; }
+
+.news-single-service {
+  margin-bottom: 5rem; }
+  @media (min-width: 992px) {
+    .news-single-service {
+      margin-bottom: 11rem; } }
+
+.contact {
+  position: relative;
+  margin-top: 15rem; }
+  .contact .container .section-title-bodoni::after {
+    display: none; }
+  .contact .container .contact-form .form-group textarea {
+    resize: none; }
+  .contact .container .contact-form .form-group .form-control::placeholder {
+    font-size: 1.6rem;
+    color: #1e1e1e;
+    line-height: 2.5rem;
+    font-weight: 300;
+    opacity: 1;
+    background-color: rgba(37, 61, 97, 0.05); }
+  .contact .container .contact-form .form-group .form-control::focus {
+    box-shadow: none; }
+  @media (min-width: 992px) {
+    .contact .container .map-wrapper {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: cover;
+      overflow: hidden;
+      max-height: 707px; } }
+
+.contact-address {
+  padding: 65px 0;
+  background-color: #ECD9D9; }
+  .contact-address div {
+    max-width: 468px; }
+    .contact-address div p {
+      font-size: 2.4rem;
+      line-height: 3rem; }
 
 /*Footer START*/
 .footer a {

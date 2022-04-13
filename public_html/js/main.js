@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 
 
- // animation start
+    // animation start
     function animation() {
         var windowHight = $(window).height();
         var scroll = $(window).scrollTop();
@@ -26,7 +26,7 @@ $(document).ready(function () {
     });
 // animation end
 
-
+// valdation start
 
 
     if ($('.contact-form').length > 0) {
@@ -42,30 +42,33 @@ $(document).ready(function () {
                 },
                 rules: {
                     name: {
-                        required: true
+                        required: true,
+                        rangelength: [2, 20]
                     },
                     email: {
                         required: true,
                         email: true
                     },
+                    subject: {
+                        required: true,
+                    },
                     message: {
                         required: true,
-                        maxlength: 255
-
                     }
                 },
                 messages: {
                     name: {
-                        required: 'Name* is required field!!!'
+                        required: 'Name is required'
                     },
                     email: {
-                        required: 'Email* is required field!!!',
-                        email: 'Please insert valid Email address!!!'
+                        required: 'Email is required'
+                    },
+                    subject: {
+                        required: 'Please write the name of your subject'
+
                     },
                     message: {
-                        required: 'Message* is required field!!!',
-                        maxlength: 'Max Message length is 255 characters !!!'
-
+                        required: 'Please write your message'
                     }
 
                 },
@@ -76,7 +79,12 @@ $(document).ready(function () {
 
             });
         });
-    }//Form Validation
+
+    }
+
+
+
+
 
 
 
@@ -85,9 +93,9 @@ $(document).ready(function () {
     });
 
 
-  
-  
-   if ($('.professionals-carousel').length > 0) {
+
+
+    if ($('.professionals-carousel').length > 0) {
         $('.professionals-carousel').owlCarousel({
             loop: true,
             margin: 10,
@@ -98,12 +106,12 @@ $(document).ready(function () {
 
         });
     }
-  
-  $('.navbar-nav').on('click', '.toggle-submenu-drop',function(e){
-      e.preventDefault();
-      $(this).toggleClass('fa-chevron-down fa-chevron-up');
-      $(this).parent().next('.submenu').slideToggle();
-  });
+
+    $('.navbar-nav').on('click', '.toggle-submenu-drop', function (e) {
+        e.preventDefault();
+        $(this).toggleClass('fa-chevron-down fa-chevron-up');
+        $(this).parent().next('.submenu').slideToggle();
+    });
 
 
 });

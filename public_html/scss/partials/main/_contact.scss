@@ -1,0 +1,61 @@
+
+.contact{
+position: relative;
+margin-top: 15rem;
+.container{
+   
+    
+    .section-title-bodoni{
+        &::after{
+            display: none;
+        }
+    }
+
+    .contact-form{
+        .form-group{
+            textarea{
+                resize: none;
+            }
+
+            .form-control{
+                &::placeholder{
+                    font-size: 1.6rem;
+                    color: $dark;
+                    line-height: 2.5rem;
+                    font-weight: 300;
+                    opacity: 1;
+                    background-color: rgba(37, 61, 97, 0.05);
+                }
+                &::focus{
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    
+   
+    
+     @media(min-width: 992px){
+         .map-wrapper{
+             position: absolute;
+             top: 0;
+             right: 0;
+             background: cover;
+             overflow: hidden;
+             max-height: 707px;
+         }
+    }
+}
+}
+
+.contact-address{
+    padding: 65px 0;
+    background-color: #ECD9D9;
+    div{
+        max-width: 468px;
+        p{
+            font-size: 2.4rem;
+            line-height: 3rem;
+        }
+    }
+}

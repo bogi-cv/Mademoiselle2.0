@@ -4,8 +4,28 @@
     padding: 140px 0px;
 
     
-       p{ text-align: justify;}
-    
+       p{text-align: justify;}
+       
+       .tags-title{
+           font-family: $bodoni-light;
+           font-size: 1.6rem;
+           line-height: 2.7rem;
+           font-weight: 300;
+       }
+       .tags{
+           p{
+               font-family: $bodoni-light;
+           font-size: 1.6rem;
+           line-height: 2.7rem;
+           
+           a{
+               padding: 1rem 2.5rem;
+               background-color: #F5F5F5;
+               
+           }
+           
+           }
+       }
     
     .single-blog-heading{
         
