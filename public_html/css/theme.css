@@ -9650,7 +9650,17 @@ header .navbar-nav {
   header .navbar-nav a:hover {
     border-bottom: 1px solid #ECD9D9; }
   header .navbar-nav .submenu {
+    background-color: #fff;
     display: none; }
+    @media (min-width: 768px) {
+      header .navbar-nav .submenu {
+        position: absolute; } }
+  @media (min-width: 768px) {
+    header .navbar-nav .nav-item-sub span {
+      display: none; } }
+  @media (min-width: 768px) {
+    header .navbar-nav .nav-item-sub:hover .submenu {
+      display: block; } }
   header .navbar-nav span {
     padding: 0px 5px; }
 
@@ -9885,6 +9895,8 @@ header .navbar-nav {
     background-color: rgba(37, 61, 97, 0.05); }
   .contact .container .contact-form .form-group .form-control::focus {
     box-shadow: none; }
+  .contact .container .contact-map iframe {
+    max-width: 100%; }
   @media (min-width: 992px) {
     .contact .container .map-wrapper {
       position: absolute;

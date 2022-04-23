@@ -3,7 +3,7 @@
     position: relative;
     margin-top: 15rem;
     .container{
-       
+
 
         .section-title-bodoni{
             &::after{
@@ -32,8 +32,13 @@
                 }
             }
         }
-                            
-        
+
+         .contact-map{
+                    iframe {
+                        max-width:100%;
+                    }
+                }
+
         @media(min-width: 992px){
             .map-wrapper{
                 position: absolute;
@@ -41,12 +46,13 @@
                 right: 0;
                 overflow: hidden;
                 max-height: 707px;
+               
             }
-            
+
         }
-        
-        
-        
+
+
+
     }
 }
 

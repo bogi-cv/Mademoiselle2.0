@@ -41,9 +41,30 @@ header {
             border-bottom: 1px solid #ECD9D9;
         }
 
+        
         .submenu{
+            background-color: #fff;
             display: none;
+            @media(min-width: 768px){
+                position: absolute;
+            }
         }
+        
+        .nav-item-sub{
+            span{
+                @media(min-width: 768px){
+                display: none;
+            }
+        }
+        }
+        
+        @media(min-width: 768px){
+            .nav-item-sub:hover .submenu{
+                display: block;
+            }
+        }
+        
+      
         
         span{
             padding: 0px 5px;
