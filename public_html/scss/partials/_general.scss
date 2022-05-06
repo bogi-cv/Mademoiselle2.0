@@ -83,16 +83,17 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-.service-item-data-btn{
+.service-item-data-link{
     font-family: $lato;
     font-size: 14px;
     line-height: 17px;
     padding: 15px 36px;
     border: 1px solid #1e1e1e;
+    color: #1e1e1e !important;
 }
 
-.service-item-data-btn:hover{
-    color: $purple;
+.service-item-data-link:hover{
+    color: $purple !important;
     border: 1px solid $purple;
 }
 

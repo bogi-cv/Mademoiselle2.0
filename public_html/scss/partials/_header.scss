@@ -50,7 +50,7 @@ header {
             }
         }
         
-        .nav-item-sub{
+        .nav-item{
             span{
                 @media(min-width: 768px){
                 display: none;
@@ -59,7 +59,7 @@ header {
         }
         
         @media(min-width: 768px){
-            .nav-item-sub:hover .submenu{
+            .nav-item:hover .submenu{
                 display: block;
             }
         }

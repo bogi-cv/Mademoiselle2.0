@@ -9605,15 +9605,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
       font-size: 36px;
       line-height: 44px; } }
 
-.service-item-data-btn {
+.service-item-data-link {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 17px;
   padding: 15px 36px;
-  border: 1px solid #1e1e1e; }
+  border: 1px solid #1e1e1e;
+  color: #1e1e1e !important; }
 
-.service-item-data-btn:hover {
-  color: #6f42c1;
+.service-item-data-link:hover {
+  color: #6f42c1 !important;
   border: 1px solid #6f42c1; }
 
 .error-msg {
@@ -9656,10 +9657,10 @@ header .navbar-nav {
       header .navbar-nav .submenu {
         position: absolute; } }
   @media (min-width: 768px) {
-    header .navbar-nav .nav-item-sub span {
+    header .navbar-nav .nav-item span {
       display: none; } }
   @media (min-width: 768px) {
-    header .navbar-nav .nav-item-sub:hover .submenu {
+    header .navbar-nav .nav-item:hover .submenu {
       display: block; } }
   header .navbar-nav span {
     padding: 0px 5px; }
@@ -9710,15 +9711,16 @@ header .navbar-nav {
   font-size: 1.6rem;
   line-height: 2.4rem;
   margin-left: 0px !important;
-  transition: none; }
+  transition: none;
+  color: #1e1e1e; }
 
 .nav-pagination a:focus {
   box-shadow: none;
-  color: inherit; }
+  color: #1e1e1e; }
 
 .nav-pagination a:hover {
   background-color: transparent;
-  color: inherit;
+  color: #1e1e1e;
   transition: none; }
 
 .lead {
@@ -9743,7 +9745,8 @@ header .navbar-nav {
   margin-bottom: 46px; }
   .news .news-item {
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    display: block; }
     .news .news-item a img {
       position: absolute;
       bottom: 0;

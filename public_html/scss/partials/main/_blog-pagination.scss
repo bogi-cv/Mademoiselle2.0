@@ -7,19 +7,20 @@
         font-size: 1.6rem;
         line-height: 2.4rem;
         margin-left: 0px !important;
-          transition: none;
-    } 
-    
+        transition: none;
+        color: #1e1e1e;
+    }
+
     a:focus{
         box-shadow: none;
-        color: inherit;
+        color:  #1e1e1e;
     }
     a:hover{
         background-color: transparent;
-        color: inherit;
+        color:  #1e1e1e;
         transition: none;
     }
-    
-   
+
+
 }
 
